@@ -1,0 +1,128 @@
+{
+		"Common": [ 
+			{"CRnumber" : "CR12345"},
+			{"AppId" : "11072737"},
+			{"artifactId" : "com.hsbc.efx.swat:gsd-sub4j:1.0.14:jar"},
+			{"sourceCodeUrl" : "https://alm-github.systems.uk.hsbc/some-repository/some-application"} 
+		],
+		"SNOW": [ 
+			{"SnowPluginConfigurationName" : "pluginConfig"},
+			{"type" : "normal"},
+			{"CRnumber" : "CR98765"},
+			{"copyChangeTasks" : "Yes"},
+			{"IncidentNumber" : "INC12345"},
+			{"StandardCRTemplateName" : "myTemplate"},
+			{"Type2" : "normal"},
+			{"Category" : "cat"},
+			{"Service" : "ser"},
+			{"ServiceOffering" : "scvOff"},
+			{"ConfigurationItem" : "cfgItem"},
+			{"AssignedTo" : "admin"},
+			{"ShortDescription" : "Short description"},
+			{"Description" : "Long Description"},
+			{"ContactInformation" : "Contact Information"},
+			{"Justification" : "Justification"},
+			{"ImplementationPlan" : "Implementation plan"},
+			{"BusinessImpact" : "Business Impact"},
+			{"TechnicalImpact" : "Technical Impact"},
+			{"BackoutPlan" : "Backout Plan"},
+			{"PostImplementationVerificationPlan" : "Post implementation verification plan"},
+			{"ScheduleStartDateGmt" : "20230228"},
+			{"ScheduleEndDateGmt" : "20230330"},
+			{"Backout duration" : "1"},
+			{"CloseCode" : "123007"},
+			{"SubCloseCode" : "007123"},
+			{"CloseNotes" : "Close notes"}		
+		],
+		"DEPL1": [ 
+			{"performDEPL1" : "Yes"},
+			{"DEPL1applies" : "Yes"},
+			{"NexusRepoArtifactUrl" : "https://nexus3.systems.uk.hsbc:8081/nexus/repository/tpvr-raw-restricted-devopstooling-n3p/com/cloudbees/cd/10/CloudBeesFlowAgent-x64-10.9.0.157496"} 
+		],
+		"DEPL3": [ 
+			{"performDEPL3" : "Yes"},
+			{"DEPL3applies" : "Yes"},
+			{"testEvidenceUrl" : "https://alm-confluence.systems.uk.hsbc/confluence/display/CBCD/Post+Deployment+Verification"},
+			{"requirementUrls" : "https://alm-jira.systems.uk.hsbc/jira/browse/CBCDFLOW-4396"},
+			{"Depl3SourceCodeUrl" : "https://alm-github.systems.uk.hsbc/hsbc-aro-projects"}
+		],
+		"DEPL4": [ 
+			{"performDEPL4" : "Yes"},
+			{"DEPL4applies" : "Yes"},
+			{"postDeploymentVerificationEvidenceUrl" : "https://alm-confluence.systems.uk.hsbc/confluence/display/CBCD/Post+Deployment+Verification"}
+		],
+		"SDLC1": [
+			{"performSDLC1" : "Yes"},
+			{"SDLC1applies" : "Yes"},
+			{"Sdlc1SourceCodeUrl" : "https://alm-github.systems.uk.hsbc/some-repository/some-application"},
+			{"name" : "com.hsbc.examples/example-service308"},
+			{"Description" : "Description for the application"},
+			{"includesFoss" : "Yes"},
+			{"isMainframe" : "No"},
+			{"thirdPartyClosedSource" : "No"}
+		],
+		"SDLC2": [ 
+			{"performSDLC2" : "Yes"},
+			{"SDLC2applies" : "Yes"},
+			{"CodeReivewUrl" : "https://alm-github.systems.uk.hsbc/ask/ask/pull/49"},
+			{"fossRequired" : "Yes"}
+		],
+		"SDLC3": [ 
+			{"performSDLC3" : "Yes"},
+			{"SDLC3applies" : "Yes"},
+			{"TestEvdUrl" : "https://edist-tools.prd.fx.gbm.cloud.uk.hsbc:12000/rp/rpp/gsd-sub4j/gsd-sub4j-1.0.20"}
+		],
+		"SDLC4": [ 
+			{"performSDLC4" : "Yes"},
+			{"SDLC4applies" : "Yes"},
+			{"ArtefactUrl" : "url"},
+			{"Sdlc4SourceCodeUrl" : "url"},
+			{"ArtifactPreviousVersion" : "prevVersion"},
+			{"ArtifactVersion" : "version"}
+		],
+		"SDLC5": [ 
+			{"performSDLC5" : "Yes"},
+			{"SDLC5applies" : "Yes"},
+			{"NexusIqCredentialName" : "credentialName"},
+			{"NexusIqUrl" : "url"}
+		],
+		"SAST1": [ 
+			{"performSAST1" : "Yes"},
+			{"SAST1applies" : "Yes"},
+			{"cyberflowSastConfigurationId" : " id"}
+		],
+		"DAST2": [ 
+			{"performDAST2" : "Yes"},
+			{"DAST2applies" : "Yes"},
+			{"cyberflowDastConfigurationId" : "id"}
+		],
+		"MAST3": [ 
+			{"performMAST3" : "Yes"},
+			{"MAST3applies" : "Yes"},
+			{"mastGitRepo" : "repo"},
+			{"mastGitBranch" : "branch"},
+			{"mastFileName" : "fileName"},
+			{"mastType" : "type"}
+		],
+		"COST4": [ 
+			{"performCOST4" : "Yes"},
+			{"COST4applies" : "Yes"},
+			{"registryName" : "name"},
+			{"registryLocation" : "location"},
+			{"imagePath" : "path"},
+			{"imageTag" : "tag"}
+		],
+		"DMOV1": [ 
+			{"performDMOV1" : "Yes"},
+			{"DMOV1applies" : "Yes"},
+			{"isDomino" : "Yes"},
+			{"isEuc" : "Yes"},
+			{"eimAppInstanceType" : "InstanceType"},
+			{"eimStatus" : "status"}
+		],
+		"myControlX": [ 
+			{"performmyControlX" : "Yes"},
+			{"myControlXapplies" : "Yes"},
+			{"myControlXParam" : "Yes"}
+		]
+}
