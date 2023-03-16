@@ -2,8 +2,8 @@
 		"Common": [ 
 			{"CRnumber" : "CR12345"},
 			{"AppId" : "11072737"},
-			{"artifactId" : "com.hsbc.efx.swat:gsd-sub4j:1.0.14:jar"},
-			{"sourceCodeUrl" : "https://alm-github.systems.uk.hsbc/some-repository/some-application"} 
+			{"artifactId" : "com.domain.efx.swat:gsd-sub4j:1.0.14:jar"},
+			{"sourceCodeUrl" : "https://github.com/some-repository/some-application"} 
 		],
 		"SNOW": [ 
 			{"SnowPluginConfigurationName" : "pluginConfig"},
@@ -37,25 +37,25 @@
 		"DEPL1": [ 
 			{"performDEPL1" : "Yes"},
 			{"DEPL1applies" : "Yes"},
-			{"NexusRepoArtifactUrl" : "https://nexus3.systems.uk.hsbc:8081/nexus/repository/tpvr-raw-restricted-devopstooling-n3p/com/cloudbees/cd/10/CloudBeesFlowAgent-x64-10.9.0.157496"} 
+			{"NexusRepoArtifactUrl" : "https://nexus3.mydomain:8081/nexus/repository/tpvr-raw-restricted-devopstooling-n3p/com/cloudbees/cd/10/CloudBeesFlowAgent-x64-10.9.0.157496"} 
 		],
 		"DEPL3": [ 
 			{"performDEPL3" : "Yes"},
 			{"DEPL3applies" : "Yes"},
-			{"testEvidenceUrl" : "https://alm-confluence.systems.uk.hsbc/confluence/display/CBCD/Post+Deployment+Verification"},
-			{"requirementUrls" : "https://alm-jira.systems.uk.hsbc/jira/browse/CBCDFLOW-4396"},
-			{"Depl3SourceCodeUrl" : "https://alm-github.systems.uk.hsbc/hsbc-aro-projects"}
+			{"testEvidenceUrl" : "https://confluence.mydomain/confluence/display/CBCD/Post+Deployment+Verification"},
+			{"requirementUrls" : "https://jira.mydomain/jira/browse/CBCDFLOW-4396"},
+			{"Depl3SourceCodeUrl" : "https://github.com/mybank-aro-projects"}
 		],
 		"DEPL4": [ 
 			{"performDEPL4" : "Yes"},
 			{"DEPL4applies" : "Yes"},
-			{"postDeploymentVerificationEvidenceUrl" : "https://alm-confluence.systems.uk.hsbc/confluence/display/CBCD/Post+Deployment+Verification"}
+			{"postDeploymentVerificationEvidenceUrl" : "https://confluence.mydomain/confluence/display/CBCD/Post+Deployment+Verification"}
 		],
 		"SDLC1": [
 			{"performSDLC1" : "Yes"},
 			{"SDLC1applies" : "Yes"},
-			{"Sdlc1SourceCodeUrl" : "https://alm-github.systems.uk.hsbc/some-repository/some-application"},
-			{"name" : "com.hsbc.examples/example-service308"},
+			{"Sdlc1SourceCodeUrl" : "https://github.com/some-repository/some-application"},
+			{"name" : "com.mydomain.examples/example-service308"},
 			{"Description" : "Description for the application"},
 			{"includesFoss" : "Yes"},
 			{"isMainframe" : "No"},
@@ -64,13 +64,13 @@
 		"SDLC2": [ 
 			{"performSDLC2" : "Yes"},
 			{"SDLC2applies" : "Yes"},
-			{"CodeReivewUrl" : "https://alm-github.systems.uk.hsbc/ask/ask/pull/49"},
+			{"CodeReivewUrl" : "https://github.com/ask/ask/pull/49"},
 			{"fossRequired" : "Yes"}
 		],
 		"SDLC3": [ 
 			{"performSDLC3" : "Yes"},
 			{"SDLC3applies" : "Yes"},
-			{"TestEvdUrl" : "https://edist-tools.prd.fx.gbm.cloud.uk.hsbc:12000/rp/rpp/gsd-sub4j/gsd-sub4j-1.0.20"}
+			{"TestEvdUrl" : "https://edist-tools.prd.fx.gbm.mydomain:12000/rp/rpp/gsd-sub4j/gsd-sub4j-1.0.20"}
 		],
 		"SDLC4": [ 
 			{"performSDLC4" : "Yes"},
